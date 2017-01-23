@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechDrop</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+<header>
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar">Add Colleges</span>
+              <span class="icon-bar">Add Clgstream</span>
+              <span class="icon-bar">Add Cutoff</span>
+            </button>
+            <a class="navbar-brand" href="index.html">Study Bharat</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="Vcollegedetails.html">Add Colleges</a></li>
+              <li><a href="Vclgstream.html">Add ClgStream</a></li>
+              <li><a href="Vcutoff.html">Add CutOff</a></li>
+            </ul>
+<!--             <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul> -->
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+</header>
+
+<form>
+    <div class="container jumbotron">
+            <div class="row">
+                <div class="col-sm-12 form-group btn-danger">
+                    <label >Add CutOff Marks</label>
+                </div>
+                <div class="col-sm-4 form-group">
+                    <label for="inputEmail">College Id</label>
+                    <input type="list" class="form-control" id="ColgId" placeholder="Select College ID">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <label for="inputEmail">Stream Id</label>
+                    <input type="dropdown" class="form-control" id="streamId" placeholder="Select stream Id">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <label for="inputEmail">Category Id</label>
+                    <input type="text" class="form-control" id="CategoryID" placeholder="Select CategoryID">
+                </div>
+          </div>
+          <div class="row">
+                <div class="col-sm-4 form-group">
+                    <label for="inputEmail">Year</label>
+                    <input type="text" class="form-control" id="year" placeholder="Select Year">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <label for="inputEmail">CutOff Marks</label>
+                    <input type="cutOff" class="form-control" id="cutOff" placeholder="Enter cutOff">
+                </div>
+                <div class="col-sm-4 form-group">
+
+                </div>
+          </div>
+          <div class="row">
+              
+          </div>
+          <div class="row">
+                <div class="col-sm-4 form-group">
+                    <input type="submit" class="btn-success" value="Save" tabindex="4">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <input type="submit" class="btn-success" value="View" tabindex="4">
+                </div>
+                <div class="col-sm-4 form-group">
+
+                </div>
+          </div>
+        </div>
+</form>
+</body>
+</html>
